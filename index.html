@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    
+    <div class="container-1">
+      <div class="title-challenge-1"><h4>Challenge 1: Your Age in Days</h4></div>
+      <div class="gp-btn">
+        <div><button class="btn btn-success" onclick="clickMe()">Click Me</button></div>
+        <div><button class="btn btn-danger" onclick="reset()">Reset</button></div>
+      </div>
+      <div class="result"></div>
+    </div>
+
+    <div class="container-2">
+      <div class="title-challenge-2"><h4>Challenge 2: Cat Generator</h4></div>
+      <div class="btn-section">
+        <button class="btn btn-secondary my-2" onclick="generate()">Generate Cat</button>
+      </div>
+      <div class="flex-box-cat">
+      
+      </div>
+    </div>
+
+    <div class="container-3">
+      <div class="title-challenge-3"><h4>Challenge 3: Rock , Paper and Scissors</h4></div>
+      <div class="flex-box-rps" id="flex-box-rps-div">
+        <img id="rock" src="images/rock.png" height="150" width="150" alt="" onclick="rpsGame(this)"> 
+        <img id="paper" src="images/paper.png" height="150" width="150" alt="" onclick="rpsGame(this)">
+        <img id="scissors" src="images/scissors.png" height="150" width="150"  alt="" onclick="rpsGame(this)">
+      </div>
+    </div>
+
+    <div class="container-4">
+      <div class="title-challenge-4"><h4>Challenge 4: Changing the color of all buttons</h4></div>
+      <div class="flex-box-color">
+        <select id="changing-color" onchange="changeColor(this)">
+          <option value="random">Random</option>
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="reset">Reset</option>
+        </select>
+        <button class="btn btn-warning">Wee!</button>
+        <button class="btn btn-primary">Google!</button>
+        <button class="btn btn-danger">Yahoo!</button>
+        <button class="btn btn-success">Facebook!</button>
+      </div>
+    </div>
+
+    <div class="container-5">
+      <h2>Challenge 5: Blackjack</h4>
+      <h3><span id="blackjack-result">Let's go</span></h2>
+      <div class="flex-blackjack-row-1">
+        <div id="your-box">
+          <h2>You:<span id="your-blackjack-result">0</span></h2>
+        </div>
+        <div id="dealer-box">
+          <h2>Dealer:<span id="dealer-blackjack-result">0</span></h2>
+        </div>
+      </div>
+      <div class="flex-blackjack-row-2">
+        <div>
+          <button class="btn-lg btn-primary mr-2" id="blackjack-hit-btn">Hit</button>
+          <button class="btn-lg btn-warning mr-2" id="blackjack-stand-btn">Stand</button>
+          <button class="btn-lg btn-danger" id="blackjack-deal-btn">Deal</button>
+        </div>
+      </div>
+
+      <div class="flex-blackjack-row-3">
+        <table>
+          <tr>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Raws</th>
+          </tr>
+          
+          <tr>
+            <td><span id="wins">0</span></td>
+            <td><span id="losses">0</span></td>
+            <td><span id="draws">0</span></td>
+
+          </tr>
+
+        </table>
+      </div>
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <script src="javascripts/javascrtipt.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
