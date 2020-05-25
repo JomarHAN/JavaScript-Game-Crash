@@ -1,0 +1,101 @@
+.container-1, .container-3, .container-4, .container-2,.container-5{
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.flex-blackjack-row-3 {
+    background-image: url(/images/tableBackground.png);
+    background-size: cover;
+    background-position-y: 10px;
+    color: whitesmoke;
+}
+
+
+
+.gp-btn,.flex-box-rps,.flex-box-color,.flex-box-cat{
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gp-btn div{
+    padding: 15px;
+}
+
+.flex-box-rps img, .flex-box-color>* ,.flex-box-cat img{
+    padding: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0 0 15px 0px blue;
+}
+
+.result{
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+#your-box,#dealer-box{
+    width: 50%;
+    border: 2px solid rgb(32, 32, 32);
+
+}
+
+#your-box img, #dealer-box img{
+    width: 75px;
+    height: 100px;
+    margin: 15px;
+}
+
+
+.container-5 h3{
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+
+.flex-blackjack-row-1{
+    background-image: url(/images/tableBackground.png);
+    background-size: cover;
+    color: white;
+    height: 450px;
+    display: flex;
+    padding: 10px;
+}
+
+
+
+.flex-blackjack-row-2{
+    border-bottom: 1px solid;
+    background-image: url(/images/tableBackground.png);
+    background-size: cover;
+    padding: 15px;
+    background-position-y: 118px;
+}
+
+.flex-blackjack-row-3 table {
+    margin: 0px auto;
+    padding: 10px;
+    display: inline-block;
+}
+
+.flex-blackjack-row-2 div {
+    padding: 10px;
+    margin: 0px 350px;
+    border: 1px solid whitesmoke;
+    box-sizing: border-box;
+}
+
+.flex-blackjack-row-3 table th{
+    border: 1px solid;
+    padding: 0 25px;
+}
+.flex-blackjack-row-3 table td{
+    border: 1px solid;
+}
+
